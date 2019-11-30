@@ -21,9 +21,9 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<Fragment> list;
 
     int[] tabIcons = {
-            R.drawable.ic_dashboard_black_24dp,
-            R.drawable.ic_home_black_24dp,
-            R.drawable.ic_launcher_background
+            R.drawable.ic_restaurant,
+            R.drawable.ic_calendar,
+            R.drawable.ic_warning
     };
 
     @Override
@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(pager);
 
         setupTabIcons();
-
-        for (int i = 0; i < tabLayout.getTabCount(); i++) {
-            tabLayout.getTabAt(i).setIcon(R.drawable.ic_dashboard_black_24dp);
-        }
     }
 
     void setupTabIcons() {

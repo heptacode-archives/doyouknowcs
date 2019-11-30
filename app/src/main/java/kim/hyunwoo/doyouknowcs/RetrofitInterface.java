@@ -11,15 +11,9 @@ import retrofit2.http.Query;
 
 public interface RetrofitInterface {
 
-    @GET("/J")
-    Call<Meal> getTodayMeal();
+    @GET("/meal/Jmonthly")
+    Call<Meal> getMonthlyMeal();
 
-//    @GET("/Jmonthly")
-//    Call<Meal> getMonthlyMeal();
-
-//    @GET("/Jmonthly/{month}")
-//    Call<Meal> getAnotherMonthMeal(@Path("month") String month);
-
-    @GET("/Jmonthly/2019-11")
-    Call<Meal> getAnotherMonthMeal();
+    @GET("/meal/Jmonthly/{year}-{month}")
+    Call<Meal> getAnotherMonthMeal(@Path("year") String year, @Path("month") String month);
 }

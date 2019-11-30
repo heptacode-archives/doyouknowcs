@@ -7,7 +7,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitHelper {
-    final static String url = "https://circlesapp.kr/meal/";
+    final static String url = "https://circlesapp.kr/";
     private static Retrofit retrofit;
     public static Gson gson=new GsonBuilder().setLenient().create();
     public static RetrofitInterface getInstance(){
