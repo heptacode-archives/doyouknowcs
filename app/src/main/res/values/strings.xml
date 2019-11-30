@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">DoYouKnowCS</string>
+    <string name="title_first">Today Meal</string>
+    <string name="title_second">Calendar</string>
+    <string name="title_third">Allergy Info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
