@@ -35,11 +35,11 @@ public class SecondFragment extends Fragment {
                 String year = String.valueOf(i);
                 String month= String.valueOf(i1+1);
 
-                if(month.length()==1){
-                    month="0"+month;
+                if(month.length() == 1){
+                    month = "0" + month;
                 }
 
-                Log.e("asdf", (year+"-"+month));
+                Log.e("asdf", (year + "-" + month));
 
                 RetrofitHelper.getInstance().getAnotherMonthMeal().enqueue(new Callback<Meal>() {
                     @Override
