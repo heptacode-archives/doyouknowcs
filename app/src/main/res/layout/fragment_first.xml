@@ -8,6 +8,8 @@
         android:id="@+id/todayMeal"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="18sp"
         android:text="@string/hello_blank_fragment" />
 
 </LinearLayout>
