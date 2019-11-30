@@ -5,5 +5,5 @@
     <string name="title_third">Allergy Info</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">오늘은 급식이 없습니다!</string>
+    <string name="hello_blank_fragment">급식 정보가 없습니다!</string>
 </resources>
